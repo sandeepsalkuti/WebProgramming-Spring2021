@@ -1,0 +1,43 @@
+/* arranging container in the middle and displaying it as flex direction */
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Arranging items in grid with height and width*/
+.grid-items {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin: 10px 5px;
+}
+/* for each grid coloring with different colors */
+.first {
+  background-color: blue;
+}
+.second {
+  background-color: crimson;
+}
+.third {
+  background-color: darkgreen;
+}
+.fourth {
+  background-color: darkorange;
+}
+.fifth {
+  background-color: darkviolet;
+}
+.sixth {
+  background-color: fuchsia;
+}
+.seventh {
+  background-color: yellow;
+}
+.eigth {
+  background-color: tomato;
+}
+.ninth {
+  background-color: yellowgreen;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>.myDiv {
+        border: 2px outset red;
+        background-color: lightblue;    
+        text-align: center;
+      }</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-ICP2</title>
+</head>
+<body>
+    <!-- Heading -->
+    <h1>My Porfolio</h1>
+    <h2> This page contains information about me.</h2>
+    <!-- Paragraph -->
+    <p>I am graduate student pursuing masters in computers science. This is my final semester 
+        and about to graduate. I am interested in working as web developer so my passion lead 
+        me to take this course. Learning HTML and CSS are always fresh topics to work on.
+        It's honour to pursue my degree from UMKC.</p>
+    <!-- Unordered List  which gives dots to elements-->
+    <h3>My Programming Interests:</h3>
+    <ul>
+        <li>Front end development: JavaScript, Angular, ReactJS, HTML, CSS</li>
+        <li>Back end development: NodeJS, Python</li>
+        <li>Databases: MongoDB, MYSQL, SQLite</li>
+    </ul>
+    <!-- Ordered List which gives numbering to elements -->
+    <h3>My hobbies:</h3>
+    <ol>
+        <li>Playing games, watching movies, hangouts etc.</li>
+        <li>Trekking, travelling.</li>
+        <li>Participating in contests, surfing internet etc.</li>
+    </ol>
+    <!-- Atleast two divs and span element -->
+    <!-- coded div elemnt with using span in paragraph tag -->
+    <h3>Education</h3>
+    <div class="myDiv">
+        <h2>Bachelors:</h2>
+        <p>Jawaharlal Nehru Technological University - JNTUH</p>
+        <p>I have completed my bachelors with <span style="color:red; font-weight:bold">first class in distinction</span> in 2018.</p>
+    </div>
+
+    <div class="myDiv">
+        <h2>Masters:</h2>
+        <p>University Of Missouri Kansas City - UMKC</p>
+        <p>Currently I have GPA of <span style="color:red; font-weight:bold">3.8</span> out of 4.0.</p>
+    </div>
+    <!-- Atleast four block and inline elements -->
+    <!--Block elements dl,dt,dd,hr,address-->
+    <h3>Projects:</h3>
+    <dl>
+        <dt>RooBot</dt>
+        <dd>Answers user queries built in Fall 2020 hackathon</dd>
+        <dt>CorrelationKC</dt>
+        <dd>Gets umeployment percentage built in Spring 2020 hackathon</dd>
+    </dl>
+
+    <hr>
+
+    <address>
+    Visit projects at Github: https://github.com/sandeepsalkuti
+    <br/>
+    Visit my profile at linkedin: https://www.linkedin.com/in/sandeepreddysalkuti/
+    </address>
+
+    <!--Inline Elements i,strong,b,abbr-->
+    <p>Above are <i>project samples</i> to my work. <strong>linkedin, Github</strong> profile <b>links</b> are attached for reference<abbr title="pull request"> PR</abbr></p>
+    
+    <!-- Clickable images -->
+    <!--Added clickable elements using anchor and image tags in html-->
+    <a href="https://github.com/sandeepsalkuti/Hack-A-Roo-Fall2020" target="_blank">
+        <img alt="github.com" src="https://github.githubassets.com/images/modules/open_graph/github-octocat.png"width="128" height="128">
+    </a>
+    <a href="https://www.umkc.edu/" target="_blank">
+        <img alt="github.com" src="https://pbs.twimg.com/profile_images/806965899592810497/3TKBDp3W.jpg"width="128" height="128">
+    </a>
+    <hr>
+    <br/>
+
+    <!-- Video with controls -->
+    <!-- added two video with controls using video tag and iframe-->
+    <video width="320" height="240" src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4" controls>
+    <a href="https://archive.org/details/Popeye_forPresident" target="_blank">Internet Archive</a>.
+    </video>
+
+    <iframe src="https://www.youtube.com/embed/PwiuAebCruY" height="240" width="320" title="Iframe Example"></iframe>
+   
+</body>
+</html>
