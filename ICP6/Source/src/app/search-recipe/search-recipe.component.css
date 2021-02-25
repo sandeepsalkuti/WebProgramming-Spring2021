@@ -1,0 +1,95 @@
+.parent-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.child-container {
+  color: crimson;
+  text-align: center;
+  position: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+.form-control {
+  border-radius: 5;
+  border-color: blue;
+  align-items: center;
+  padding: 5px;
+  margin-top: 5px;
+  margin: 5px;
+}
+.form-button {
+  border-radius: 5;
+  border-color: blue;
+  width: 20%;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #4caf50;
+  color: black;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.desc {
+  font-family: Georgia;
+  font-size: 17px;
+}
+
+.thumbnail {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  min-width: 40%;
+  border-radius: 5px;
+}
+
+.thumbnail-description {
+  min-height: 40px;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+
+.panel {
+  border-color: darkblue;
+  border-radius: 5px;
+  margin: 10px solid blue;
+}
+
+.panel-body {
+  height: 55vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.recipe-details,
+.venue-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #ccc;
+}
+
+.venue-details {
+  border: none;
+  justify-content: space-between;
+}
+
+.recipe-info,
+.venue-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-details .image {
+  margin-right: 10px;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+}
