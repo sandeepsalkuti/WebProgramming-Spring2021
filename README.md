@@ -15,9 +15,13 @@ Web ICP4: https://github.com/sandeepsalkuti/WebProgramming-Spring2021/wiki/Web-I
 
 Web ICP4: https://github.com/sandeepsalkuti/WebProgramming-Spring2021/wiki/Web-ICP5
 
-Web ICP4: https://github.com/sandeepsalkuti/WebProgramming-Spring2021/wiki/Web-ICP5
+Web ICP6: https://github.com/sandeepsalkuti/WebProgramming-Spring2021/wiki/Web-ICP6
+
+Web ICP7: https://github.com/sandeepsalkuti/WebProgramming-Spring2021/wiki/Web-ICP7
 
 ### Wiki Link for Mobile ICPS:
+
+Mobile ICP1: https://github.com/sandeepsalkuti/WebProgramming-Spring2021/wiki/Mobile_ICP1
 
 
 ### Wiki link for project:
