@@ -23,6 +23,8 @@ Web ICP7: https://github.com/sandeepsalkuti/WebProgramming-Spring2021/wiki/Web-I
 
 Mobile ICP1: https://github.com/sandeepsalkuti/WebProgramming-Spring2021/wiki/Mobile_ICP1
 
+Mobile ICP2: https://umkc.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4e6e4bd3-a9cd-40d7-b90c-acf6003e57fc
+
 
 ### Wiki link for project:
 
