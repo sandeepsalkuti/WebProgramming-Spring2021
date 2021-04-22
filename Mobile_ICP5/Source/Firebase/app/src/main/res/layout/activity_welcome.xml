@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.sarika.firebase.WelcomeActivity">
+
+    <Button
+        android:id="@+id/btnSignUp"
+        style="@style/DefaultButtonText"
+        android:layout_width="381dp"
+        android:layout_height="171dp"
+
+        android:background="#FF5722"
+
+        android:onClick="redirectToSignUpPage"
+
+        android:padding="10dp"
+        android:text="Sign Up"
+        android:textColor="#111212" />
+
+    <Button
+        android:id="@+id/btnSingIn"
+        style="@style/DefaultButtonText"
+        android:layout_width="381dp"
+        android:layout_height="61dp"
+
+        android:background="#FF5722"
+
+        android:onClick="redirectToSignInPage"
+
+        android:padding="10dp"
+        android:text="Sign In"
+        android:textColor="#111212" />
+
+</RelativeLayout>
